@@ -12,7 +12,7 @@ $(function() {
             var $data = $(data).find("record");
             if($data.length > 0) {
                 var tb = $("<table />");
-                $.each($data, function() {
+                $.each($data, function(i, o) {
                     var $id =
                     $(o).find("id").text();
 
